@@ -1,0 +1,47 @@
+﻿<Window x:Class="Cosmos.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cosmos"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="800">
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        
+        <Image Grid.ColumnSpan="3" Grid.RowSpan="4" Source="Sources/cosmos.jpg" Stretch="UniformToFill"/>
+        <Image Grid.Row="3" Source="Sources/rocket.png" HorizontalAlignment="Left"/>
+
+        <Label Content="Полет на Марс" Foreground="White" FontSize="30" Grid.ColumnSpan="2"           HorizontalAlignment="Center" Margin="20"/>
+        <Label Content="Расстояние"    Foreground="White" FontSize="20" Grid.Column="1" Grid.Row="1"  HorizontalAlignment="Left"   Margin="20"/>
+        <Label Content="Скорость"      Foreground="White" FontSize="20" Grid.Column="1" Grid.Row="2"  HorizontalAlignment="Left"   Margin="20"/>
+        <Label Content="Время"         Foreground="White" FontSize="20" Grid.Column="1" Grid.Row="3"  HorizontalAlignment="Left"   Margin="20"/>
+
+        <Label   Content="2 млрд. км"   Foreground="White" FontSize="20" Grid.Column="1" Grid.Row="1"  HorizontalAlignment="Center"  Margin="20" x:Name="Distance"/>
+        <TextBox Background="DarkBlue" Foreground="White" FontSize="20" Grid.Column="1" Grid.Row="2"  HorizontalAlignment="Center" Height="35" Margin="20" x:Name="Speed" Width="150"/>
+        <Label   Foreground="White" FontSize="20" Grid.Column="1" Grid.Row="3"  HorizontalAlignment="Center"  Margin="20" x:Name="Time"/>
+
+        <Label Content="Топливо" Foreground="White" FontSize="20" Grid.Row="1" HorizontalAlignment="Left"   Margin="20"/>
+        <Label Content="1000" Foreground="White" FontSize="20" Grid.Row="1" HorizontalAlignment="Right" Height="40"  Margin="50 0 0 10" VerticalContentAlignment="Center" x:Name="fuelRocket" Width="280"/>
+
+        <Button Background="DarkBlue" Content="Полетели!"  Foreground="White" FontSize="20" Grid.Row="3" Height="40" HorizontalAlignment="Center" Margin="100 0 0 0"  Opacity="0.8" VerticalAlignment="Top" x:Name="valueButton" Click="Culculate"/>
+        <Button Background="DarkBlue" Content="Очистить"  Foreground="White" FontSize="20" Grid.Row="3" Height="40" HorizontalAlignment="Right" Opacity="0.8" VerticalAlignment="Top" x:Name="cleanButton" Click="CleanButton_Click"/>
+
+        <Label Content="Количество путешествий" Foreground="White" FontSize="20" Grid.Row="2" HorizontalAlignment="Left"   Margin="20"/>
+        <Label Foreground="White" FontSize="20" Grid.Row="2" HorizontalAlignment="Center" Height="40"  Margin="200 0 0 10" VerticalContentAlignment="Center" x:Name="CountTrips" Width="50"/>
+
+        <Button Background="DarkBlue" Content="Добавить топливо"  Foreground="White" FontSize="20" Grid.Row="3" Height="40" HorizontalAlignment="Right" Opacity="0.8" VerticalAlignment="Bottom" x:Name="addButton" Click="AddButton_Click" />
+
+
+
+    </Grid>
+</Window>

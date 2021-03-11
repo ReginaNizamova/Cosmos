@@ -1,0 +1,15 @@
+D:\С#\Cosmos\bin\Debug\Cosmos.exe.config
+D:\С#\Cosmos\bin\Debug\Cosmos.exe
+D:\С#\Cosmos\bin\Debug\Cosmos.pdb
+D:\С#\Cosmos\obj\Debug\MainWindow.g.cs
+D:\С#\Cosmos\obj\Debug\App.g.cs
+D:\С#\Cosmos\obj\Debug\Cosmos_MarkupCompile.cache
+D:\С#\Cosmos\obj\Debug\Cosmos_MarkupCompile.lref
+D:\С#\Cosmos\obj\Debug\MainWindow.baml
+D:\С#\Cosmos\obj\Debug\Cosmos.g.resources
+D:\С#\Cosmos\obj\Debug\Cosmos.Properties.Resources.resources
+D:\С#\Cosmos\obj\Debug\Cosmos.csproj.GenerateResource.cache
+D:\С#\Cosmos\obj\Debug\Cosmos.csproj.CoreCompileInputs.cache
+D:\С#\Cosmos\obj\Debug\Cosmos.exe
+D:\С#\Cosmos\obj\Debug\Cosmos.pdb
+D:\С#\Cosmos\obj\Debug\Cosmos.csprojAssemblyReference.cache
